@@ -14,7 +14,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				49,
+				51,
 				0
 			],
 			"anim": "singLEFT",
@@ -26,7 +26,7 @@
 			"loop": false,
 			"offsets": [
 				-12,
-				-16
+				-14
 			],
 			"anim": "singDOWN",
 			"fps": 24,
@@ -36,8 +36,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-18,
-				27
+				-6,
+				29
 			],
 			"anim": "singUP",
 			"fps": 24,
@@ -47,7 +47,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				-18,
+				-22,
 				-1
 			],
 			"anim": "singRIGHT",
@@ -111,8 +111,8 @@
 			"indices": []
 		}
 	],
-	"no_antialiasing": true,
-	"image": "characters/Sans",
+	"no_antialiasing": false,
+	"image": "characters/sansDark",
 	"position": [
 		0,
 		200
