@@ -3,45 +3,23 @@
 		{
 			"loop": false,
 			"offsets": [
-				142,
-				-9
+				0,
+				0
 			],
-			"anim": "singLEFT",
+			"anim": "intro",
 			"fps": 24,
-			"name": "Left",
+			"name": "Cuphead Intro phase 2 instance 1",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-59,
-				-31
+			  0,
+			  0
 			],
-			"anim": "singDOWN",
+			"anim": "idle",
 			"fps": 24,
-			"name": "Down",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-7,
-				88
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "Up",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-38,
-				-13
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Right",
+			"name": "Cuphead_standing instance 1",
 			"indices": []
 		},
 		{
@@ -50,40 +28,95 @@
 				0,
 				0
 			],
-			"anim": "idle",
+			"anim": "dodge",
 			"fps": 24,
-			"name": "Cuphead_s",
+			"name": "Dodge instance 1",
 			"indices": []
 		},
 		{
-			"offsets": [
-				238,
-				115
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "hit",
 			"loop": false,
-			"name": "Hurt"
+			"offsets": [
+				-30,
+				-20
+			],
+			"anim": "singDOWN",
+			"fps": 34,
+			"name": "Down instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				145,
+				110
+			],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "Hurt instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				120,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 34,
+			"name": "Left instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-10
+			],
+			"anim": "singRIGHT",
+			"fps": 34,
+			"name": "Right instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "shoot",
+			"fps": 24,
+			"name": "Shoot instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				85
+			],
+			"anim": "singUP",
+			"fps": 34,
+			"name": "Up instance 1",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Cuphead_Remastered",
 	"position": [
-		20,
-		350
+		22,
+		455
 	],
-	"healthicon": "cup",
+	"healthicon": "cuphead",
 	"flip_x": false,
 	"healthbar_colors": [
-		255,
-		255,
-		255
+		165,
+		30,
+		0
 	],
 	"camera_position": [
-		0,
-		-90
+		105,
+		-28
 	],
-	"sing_duration": 6.1,
-	"scale": 1.8
+	"sing_duration": 6,
+	"scale": 1.75
 }
